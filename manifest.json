@@ -1,0 +1,14 @@
+{
+        "name" : "simploader",
+        "description" : "simple loader",
+        "version" : "1.0",
+        "manifest_version" : 3,
+        "action" : {
+                "default_popup": "simploader.html"
+        },
+        "permissions" : [
+                "tabs",
+                "downloads"
+        ],
+        "incognito": "spanning"
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Adder</title>
+
+                <style>
+
+body {
+        margin: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #423952;
+
+        color: white;
+
+        cursor: pointer;
+        user-select: none;
+}
+
+        #message {
+                padding: 20px;
+
+                background: transparent;
+
+                border-radius: 6px;
+
+                font-size: 18px;
+                font-weight: bold;
+
+                transition: background 0.2s ease;
+        }
+
+        input {
+                display: none;
+        }
+
+                </style>
+        </head>
+        <body>
+
+                <div id="message">
+                        Click to Add to File
+                </div>
+
+                <input
+                                type="file"
+                                id="fileinput"
+                                accept=".htld,.sld"
+                                hidden>
+
+                <script src="adder.js"></script>
+
+        </body>
+</html>

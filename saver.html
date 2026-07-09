@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Saver</title>
+
+                <style>
+body {
+        background: #423952;
+        color: white;
+
+        max-width: 500px;
+        margin: 40px auto;
+}
+
+        input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+
+                box-sizing: border-box;
+
+                background: #bb474f;
+                color: white;
+
+                border: none;
+        }
+
+        button {
+                width: 100%;
+                padding: 10px;
+
+                border: none;
+
+                background: #bb474f;
+                color: white;
+
+                cursor: pointer;
+        }
+
+        button:hover {
+                background: #486b7f;
+        }
+                </style>
+        </head>
+        <body>
+
+                <h2>Save Session</h2>
+
+                <input
+                                id="filename"
+                                placeholder="session.sld"
+                                value="session.sld">
+
+                <button id="save">
+                        Save
+                </button>
+
+                <script src="saver.js"></script>
+
+        </body>
+</html>

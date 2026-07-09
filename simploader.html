@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimpLoader</title>
+
+    <style>
+        body {
+            width: 250px;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+
+            background: #423952;
+            font-family: sans-serif;
+        }
+
+        .top-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .top-row button {
+            flex: 1;
+        }
+
+        .bottom-column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .bottom-column button {
+            width: 100%;
+        }
+
+        button {
+            padding: 10px;
+
+            background: #bb474f;
+            color: white;
+
+            border: none;
+            border-radius: 4px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background: #713f52;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-row">
+        <button id="type">Incognito</button>
+        <button id="window">New Window</button>
+    </div>
+
+    <div class="bottom-column">
+        <button id="save">Save State</button>
+        <button id="add">Add State</button>
+        <button id="load">Load State</button>
+    </div>
+
+    <script src="simploader.js"></script>
+
+</body>
+</html>
